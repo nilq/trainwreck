@@ -1,0 +1,9 @@
+summon print_char x
+
+func main:
+  using a = 100, b = 2:
+    for i = 1, i < a, b:
+      print_char(i)
+    end
+  end
+end
